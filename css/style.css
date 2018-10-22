@@ -1,0 +1,166 @@
+body {
+  color: #000;
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  text-align: center;
+}
+a:link {
+  color : #fff;
+}
+a:visited {
+  color : #fff;
+}
+
+/*------------------------------------*/
+
+/*common*/
+section {
+  /*height: 5px;*/
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.copy {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/*font-color*/
+.white {
+  color: #fff;
+}
+.black {
+  color: #000;
+}
+.blue {
+  color: #005bc3;
+}
+.dark-blue {
+  color: #001f52;
+}
+.dark-red {
+  color: #920000;
+}
+.dark-gray {
+  color: #51575f;
+}
+.light-gray {
+  color: #a4aaa9;
+}
+
+/*background-color*/
+.bg-white {
+  background-color: #fff;
+}
+.bg-black {
+  background-color: #000;
+}
+.bg-light-gray {
+  background-color: #a4aaa9;
+}
+.bg-dark-gray {
+  background-color: #515860;
+}
+.bg-red {
+  background-color: #f00000;
+}
+.bg-green {
+  background-color: #007a1d;
+}
+.bg-blue {
+  background-color: #00458c;
+}
+
+/*font-size*/
+.sm-middle {
+  font-size: 1.2rem;
+}
+.middle {
+  font-size: 1.5rem;
+}
+.big {
+  font-size: 2.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*------------------------------------*/
+
+.head {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./../images/head.jpg');
+  background-size: cover;
+  /*background-position: center center;*/
+  box-shadow: 0px 3px 3px rgba(0,0,0,0.4);
+  /*text-shadow: 3px 3px 7px rgba(1,37,83,0.2);*/
+  text-shadow: 3px 3px 7px rgba(1,37,43,0.4);
+}
+
+.contact-btn {
+  border-radius: 18px;
+}
+
+.description {
+}
+
+.desc-img {
+  width: 100%;
+}
+
+.chat-tool {
+  background: linear-gradient(rgba(0, 80, 120, 0.6), rgba(0, 80, 120, 0.7)), url('./../images/slack_chat.png');
+  background-size: cover;
+  background-position: center center;
+  /*height: 300px;*/
+}
+
+.chat-img {
+  max-width: 16%;
+  max-height: 3rem;
+}
+
+.service {
+}
+
+.service-card {
+  box-shadow: 3px 3px 7px rgba(6,37,83,0.15);
+  border-radius: 18px;
+}
+
+.price {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./../images/head.jpg');
+  background-size: cover;
+}
+
+.price-title {
+  text-shadow: 3px 3px 7px rgba(1,37,43,0.4);
+}
+
+th > div {
+  border-radius: 24px;
+  box-shadow: 3px 3px 7px rgba(6,37,83,0.15);
+}
+
+td > div {
+  border-radius: 24px;
+  box-shadow: 3px 3px 7px rgba(6,37,83,0.15);
+}
+
+.flow {
+}
+
+.contact {
+  background-color: #0084bf;
+}
+
+.footer {
+  /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/head.jpg');*/
+}
+
+@media (max-width: 767px) {
+  /*TODO: not work*/
+  .arrow {
+    content: "⬇︎";
+  }
+}
