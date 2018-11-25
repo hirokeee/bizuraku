@@ -22,3 +22,5 @@ $(function(){
     handleWindowResize();
   });
 });
+
+console.log('test')
